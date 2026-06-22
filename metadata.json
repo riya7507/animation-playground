@@ -1,0 +1,6 @@
+{
+  "name": "Animation Playground",
+  "description": "An interactive playground showcasing beautiful responsive canvas or DOM animations of snowflakes and balloons with advanced controls and status triggers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

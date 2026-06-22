@@ -1,23 +1,20 @@
-# Animation Playground 🎨
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-An AI-powered animation generation and preview web application built using Google AI Studio and deployed on Google Cloud Run.
+# Run and deploy your AI Studio app
 
-## Features
-- AI-powered animation generation
-- Real-time preview
-- Responsive user interface
-- Cloud deployment
+This contains everything you need to run your app locally.
 
-## Tech Stack
-- Google AI Studio
-- Gemini API
-- React
-- TypeScript
-- Vite
-- Google Cloud Run
+View your app in AI Studio: https://ai.studio/apps/05420cf7-f6c8-48d5-ac6e-7aea6b3d6c89
 
-## Live Demo
-Paste your Cloud Run URL here
+## Run Locally
 
-## Author
-Riya Deulkar
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
